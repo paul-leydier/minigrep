@@ -32,6 +32,7 @@ fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
         .collect()
 }
 
+#[cfg(test)]
 mod test {
     use super::*;
 
